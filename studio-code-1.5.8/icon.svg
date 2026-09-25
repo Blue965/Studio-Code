@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#071018"/>
+      <stop offset="52%" stop-color="#0d1724"/>
+      <stop offset="100%" stop-color="#090d14"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" x2="1">
+      <stop offset="0%" stop-color="#9BE7FF"/>
+      <stop offset="55%" stop-color="#DDE8FF"/>
+      <stop offset="100%" stop-color="#7DD3FC"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <rect x="28" y="28" width="456" height="456" rx="92" fill="none" stroke="#7dd3fc" stroke-opacity="0.25" stroke-width="2"/>
+  <circle cx="256" cy="192" r="160" fill="#7dd3fc" fill-opacity="0.08"/>
+  <g fill="url(#accent)">
+    <path d="M326 110c-25-27-62-42-102-42-72 0-132 45-148 109l42 18c11-38 47-66 88-66 39 0 75 24 86 60l-55 20c-18 6-33 18-41 34l-31 56c-9 16-14 35-14 54 0 28 9 55 27 75 15 16 36 28 59 32l-18 41h94l12-72c34-9 60-39 60-75 0-22-9-42-24-57 18-18 29-43 29-70 0-58-49-106-108-106zm-87 228c-32 0-58-26-58-58s26-58 58-58 58 26 58 58-26 58-58 58z"/>
+  </g>
+  <path d="M176 142h122v36H176zm0 94h122v36H176zm0 94h86v36h-86z" fill="#F8FBFF" fill-opacity="0.86"/>
+  <circle cx="142" cy="164" r="10" fill="#A5F3FC"/>
+  <circle cx="360" cy="350" r="10" fill="#67E8F9"/>
+</svg>

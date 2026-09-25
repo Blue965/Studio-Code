@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#070c12"/>
+      <stop offset="48%" stop-color="#0d1724"/>
+      <stop offset="100%" stop-color="#050a12"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" x2="1">
+      <stop offset="0%" stop-color="#BFEAFE"/>
+      <stop offset="48%" stop-color="#DDE8FF"/>
+      <stop offset="100%" stop-color="#7DD3FC"/>
+    </linearGradient>
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M44 0H0V44" fill="none" stroke="#DDE8FF" stroke-opacity="0.08"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#grid)"/>
+  <circle cx="360" cy="220" r="300" fill="#7dd3fc" fill-opacity="0.10"/>
+  <g transform="translate(120 150)">
+    <rect width="250" height="250" rx="56" fill="#0c141d" stroke="#7dd3fc" stroke-opacity="0.28" stroke-width="2"/>
+    <path d="M156 68c-41-41-95-58-156-52l18 52c30-8 62-2 87 18 22 18 35 46 35 75 0 40-24 76-62 89l-48 17c-30 11-51 37-51 66 0 43 34 75 80 75 40 0 73-19 94-54l42 37c-28 36-72 58-122 58-92 0-157-66-157-160 0-57 29-106 76-133l54-32c18-11 30-28 30-46 0-15-8-28-21-36 5 2 10 3 15 3 17 0 31-10 35-24z" fill="url(#accent)"/>
+    <path d="M108 112h116v34H108zm0 92h116v34H108zm0 94h82v34h-82z" fill="#F8FBFF" fill-opacity="0.86"/>
+    <circle cx="86" cy="120" r="9" fill="#A5F3FC"/>
+    <circle cx="208" cy="279" r="9" fill="#67E8F9"/>
+  </g>
+  <g font-family="Segoe UI, Arial, sans-serif" fill="#ecf4ff">
+    <text x="470" y="360" font-size="102" font-weight="800" letter-spacing="6">STUDIO</text>
+    <text x="470" y="470" font-size="128" font-weight="900" letter-spacing="8">CODE</text>
+    <rect x="475" y="514" width="480" height="3" fill="url(#accent)"/>
+    <text x="470" y="590" font-size="36" font-weight="600" letter-spacing="4" fill="#AABFD1">AI + ROBLOX STUDIO</text>
+    <text x="470" y="654" font-size="24" letter-spacing="3" fill="#8EA7BF">MCP • BROWSER EXTENSION • LOCAL BRIDGE</text>
+  </g>
+</svg>
